@@ -11,6 +11,7 @@ Scoring formula is
 
 ![CLTV scoring](https://c1.staticflickr.com/5/4350/36262342373_81f5ba6982_c.jpg)
 
+
 - **Written premium** is the amount a consumer pays for health insurance
 - **Claim risk** is the amount the company has to pay for the claim if a member claims. Build two models for _frequency_ and _severity_ to predict claim cost. _Frequency_ is total number of claims made by a person in a year, _severity_ is the average cost per claim. _Claim cost_ is _Frequency_ * _Severity_. Predictions are made for the 10 years using acturial assumptions
 - For frequency model we used Generalized linear models (Logistic regression) and severity model we used Generalized linear models with Gamma distribution
